@@ -1,0 +1,29 @@
+Zurich R Courses: R programming - Notes
+
+* Read source code.
+* Everything that exists is an object.
+* Everything that happens is a function call.
+* is.vector(list(1:2, 1:3, 1:4))  # TRUE
+* .Rmd ---knitr---> .md ---pandoc---> .tex/.pdf, .html
+* mat[complicated , compcomp] <− if (A) A.expr else B.expr
+  rather than
+  if (A) mat[complicated , compcomp] <− A.expr
+  else mat[complicated , compcomp] <− B.expr
+* seq_along(x) # better than 1:length(x)
+* Use && and || if & and | are not needed, for example in if(...)
+* RStudio: Select code -> Extract function
+* lengths()
+* vapply()  # faster and more robust than sapply()
+* all.equal()  # floating-point arithmetic
+* traceback()
+* ifelse() is much slower than if() and often unnecessary
+* (a <- 1)  # assigns and prints
+* x <- 1:10; length(x) <- 4  # 1:4
+* tapply()
+* Try RStudio -> Tools -> Shell on Windows
+* cut()
+
+
+tiny.uzh.ch/guest
+Token: 16zwb2248
+
