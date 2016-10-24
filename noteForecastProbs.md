@@ -22,7 +22,18 @@
 * ZMU
 * Probabilities of very major, major, and minor errors
 
+# Print
+
+* CBPs
+* Magnitude of technical variation
+* n
+* Parameters of components
+* Probabilities of very major, major, and minor errors
+* ZMU
+
 # Plots
 
 * Individual plots
+* Q-Q plots
 * Masterplots
+* Idea: Provide a single function: myPlot(obj, c("hist", "Q-Q", "FP"))
